@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.css": "/pool-game/static/css/main.f430965d.css",
-    "main.js": "/pool-game/static/js/main.3bf12e31.js",
+    "main.css": "/pool-game/static/css/main.5fae1215.css",
+    "main.js": "/pool-game/static/js/main.1521afe8.js",
     "static/media/hardwood_floor.jpg": "/pool-game/static/media/hardwood_floor.4ffdf2acafb5f28f8ab9.jpg",
     "static/media/cloth.jpeg": "/pool-game/static/media/cloth.7de2800cdfec4d7a385e.jpeg",
-    "static/media/background.jpeg": "/pool-game/static/media/background.f70dc0d5e772e60c8220.jpeg",
     "static/media/12.png": "/pool-game/static/media/12.5522eb315b9156228ea7.png",
     "static/media/13.png": "/pool-game/static/media/13.b509c7a488fd8c19f4da.png",
     "static/media/10.png": "/pool-game/static/media/10.7f583cb0fd492dd85059.png",
@@ -22,11 +21,11 @@
     "static/media/7.png": "/pool-game/static/media/7.4a981bc41aebed91d7ee.png",
     "static/media/0.png": "/pool-game/static/media/0.ac7a634fd63de8313294.png",
     "index.html": "/pool-game/index.html",
-    "main.f430965d.css.map": "/pool-game/static/css/main.f430965d.css.map",
-    "main.3bf12e31.js.map": "/pool-game/static/js/main.3bf12e31.js.map"
+    "main.5fae1215.css.map": "/pool-game/static/css/main.5fae1215.css.map",
+    "main.1521afe8.js.map": "/pool-game/static/js/main.1521afe8.js.map"
   },
   "entrypoints": [
-    "static/css/main.f430965d.css",
-    "static/js/main.3bf12e31.js"
+    "static/css/main.5fae1215.css",
+    "static/js/main.1521afe8.js"
   ]
 }
