@@ -44,28 +44,34 @@ const Scene = () => {
       ))}
       <Suspense fallback={<mesh />}>
         <PoolTable />
+        <object3D>
+          <PoolBall position={[0, -16, 0]} textureURL={ballTextures.zero} />
+          <PoolBall position={[-1.01, 15, 0]} textureURL={ballTextures.one} />
+          <PoolBall position={[1.01, 17, 0]} textureURL={ballTextures.two} />
+          <PoolBall position={[-0.51, 16, 0]} textureURL={ballTextures.three} />
+          <PoolBall position={[-1.01, 17, 0]} textureURL={ballTextures.four} />
+          <PoolBall position={[-2.02, 17, 0]} textureURL={ballTextures.five} />
+          <PoolBall position={[1.53, 16, 0]} textureURL={ballTextures.six} />
+          <PoolBall position={[0.51, 14, 0]} textureURL={ballTextures.seven} />
+          <PoolBall position={[0, 15, 0]} textureURL={ballTextures.eight} />
+          <PoolBall position={[0, 13, 0]} textureURL={ballTextures.nine} />
+          <PoolBall position={[0.51, 16, 0]} textureURL={ballTextures.ten} />
+          <PoolBall position={[2.02, 17, 0]} textureURL={ballTextures.eleven} />
+          <PoolBall
+            position={[-0.51, 14, 0]}
+            textureURL={ballTextures.twelve}
+          />
+          <PoolBall position={[0, 17, 0]} textureURL={ballTextures.thirteen} />
+          <PoolBall
+            position={[-1.53, 16, 0]}
+            textureURL={ballTextures.fourteen}
+          />
+          <PoolBall
+            position={[1.01, 15, 0]}
+            textureURL={ballTextures.fifteen}
+          />
+        </object3D>
       </Suspense>
-      <object3D>
-        <PoolBall position={[0, -16, 0]} textureURL={ballTextures.zero} />
-        <PoolBall position={[-1.01, 15, 0]} textureURL={ballTextures.one} />
-        <PoolBall position={[1.01, 17, 0]} textureURL={ballTextures.two} />
-        <PoolBall position={[-0.51, 16, 0]} textureURL={ballTextures.three} />
-        <PoolBall position={[-1.01, 17, 0]} textureURL={ballTextures.four} />
-        <PoolBall position={[-2.02, 17, 0]} textureURL={ballTextures.five} />
-        <PoolBall position={[1.53, 16, 0]} textureURL={ballTextures.six} />
-        <PoolBall position={[0.51, 14, 0]} textureURL={ballTextures.seven} />
-        <PoolBall position={[0, 15, 0]} textureURL={ballTextures.eight} />
-        <PoolBall position={[0, 13, 0]} textureURL={ballTextures.nine} />
-        <PoolBall position={[0.51, 16, 0]} textureURL={ballTextures.ten} />
-        <PoolBall position={[2.02, 17, 0]} textureURL={ballTextures.eleven} />
-        <PoolBall position={[-0.51, 14, 0]} textureURL={ballTextures.twelve} />
-        <PoolBall position={[0, 17, 0]} textureURL={ballTextures.thirteen} />
-        <PoolBall
-          position={[-1.53, 16, 0]}
-          textureURL={ballTextures.fourteen}
-        />
-        <PoolBall position={[1.01, 15, 0]} textureURL={ballTextures.fifteen} />
-      </object3D>
     </>
   );
 };
